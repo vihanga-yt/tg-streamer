@@ -1,0 +1,12 @@
+{
+  "name": "vercel-telegram-streamer",
+  "version": "1.0.0",
+  "description": "Stream Telegram videos using Vercel and GramJS",
+  "type": "module",
+  "scripts": {
+    "start": "node api/stream.js"
+  },
+  "dependencies": {
+    "telegram": "latest"
+  }
+}
