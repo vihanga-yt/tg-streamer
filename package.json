@@ -7,6 +7,7 @@
     "start": "node api/stream.js"
   },
   "dependencies": {
-    "telegram": "latest"
+    "big-integer": "^1.6.52",
+    "telegram": "^2.26.22"
   }
 }
