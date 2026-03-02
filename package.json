@@ -1,13 +1,14 @@
 {
-  "name": "vercel-telegram-streamer",
+  "name": "koyeb-telegram-streamer",
   "version": "1.0.0",
-  "description": "Stream Telegram videos using Vercel and GramJS",
+  "description": "Persistent Telegram video streamer for Koyeb",
   "type": "module",
   "scripts": {
-    "start": "node api/stream.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "big-integer": "^1.6.52",
+    "express": "^4.18.2",
     "telegram": "^2.26.22"
   }
 }
